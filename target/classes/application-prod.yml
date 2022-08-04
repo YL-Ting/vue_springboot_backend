@@ -1,0 +1,12 @@
+server:
+  port: 8088
+  
+web:
+  domain: http://localhost
+  
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: Ting890521
+    url: jdbc:mysql://localhost:3306/vue_springboot_database?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=UTC
